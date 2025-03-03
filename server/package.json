@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "ms graph poc backend",
   "main": "index.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "joe tabi",
   "license": "ISC",
   "dependencies": {
+    "@azure/msal-node": "^3.2.3",
     "axios": "^1.8.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
